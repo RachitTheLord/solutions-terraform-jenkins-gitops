@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "stellar-mariner-351116-tfstate"
     prefix = "env/dev"
   }
 }
